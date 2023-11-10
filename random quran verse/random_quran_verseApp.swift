@@ -13,7 +13,7 @@ struct random_quran_verseApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            GenerateAyah()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }

@@ -8,14 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		8C06B8882AFAA9AC00E4734F /* random_quran_verseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C06B8872AFAA9AC00E4734F /* random_quran_verseApp.swift */; };
-		8C06B88A2AFAA9AC00E4734F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C06B8892AFAA9AC00E4734F /* ContentView.swift */; };
+		8C06B88A2AFAA9AC00E4734F /* GenerateAyah.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C06B8892AFAA9AC00E4734F /* GenerateAyah.swift */; };
 		8C06B88C2AFAA9AC00E4734F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C06B88B2AFAA9AC00E4734F /* Assets.xcassets */; };
-		8C06B88F2AFAA9AC00E4734F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C06B88E2AFAA9AC00E4734F /* Preview Assets.xcassets */; };
 		8C06B8912AFAA9AC00E4734F /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C06B8902AFAA9AC00E4734F /* Persistence.swift */; };
 		8C06B8942AFAA9AC00E4734F /* random_quran_verse.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8C06B8922AFAA9AC00E4734F /* random_quran_verse.xcdatamodeld */; };
 		8C06B89F2AFAA9AD00E4734F /* random_quran_verseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C06B89E2AFAA9AD00E4734F /* random_quran_verseTests.swift */; };
 		8C06B8A92AFAA9AD00E4734F /* random_quran_verseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C06B8A82AFAA9AD00E4734F /* random_quran_verseUITests.swift */; };
 		8C06B8AB2AFAA9AD00E4734F /* random_quran_verseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C06B8AA2AFAA9AD00E4734F /* random_quran_verseUITestsLaunchTests.swift */; };
+		8C41EFC42AFBF0F900D0CD06 /* FetchQuranVerse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C41EFC32AFBF0F900D0CD06 /* FetchQuranVerse.swift */; };
+		8C41EFC62AFBF9F900D0CD06 /* QuranButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C41EFC52AFBF9F900D0CD06 /* QuranButton.swift */; };
+		8C41EFC82AFBFA6800D0CD06 /* DisplayText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C41EFC72AFBFA6800D0CD06 /* DisplayText.swift */; };
+		8C41EFCC2AFBFE0900D0CD06 /* QuranVerseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C41EFCB2AFBFE0900D0CD06 /* QuranVerseViewModel.swift */; };
+		8C41EFCE2AFC030B00D0CD06 /* VerseDisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C41EFCD2AFC030B00D0CD06 /* VerseDisplayView.swift */; };
+		8C41EFD02AFC03F000D0CD06 /* VerseButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C41EFCF2AFC03F000D0CD06 /* VerseButtonView.swift */; };
+		8C41EFD22AFCA76900D0CD06 /* apiTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C41EFD12AFCA76900D0CD06 /* apiTest.swift */; };
+		8C50E0962B092174009B336E /* StartingPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C50E0952B092174009B336E /* StartingPoint.swift */; };
+		8C76750A2B09CC4A004FA5A6 /* NextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7675092B09CC4A004FA5A6 /* NextButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +46,8 @@
 /* Begin PBXFileReference section */
 		8C06B8842AFAA9AC00E4734F /* random quran verse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "random quran verse.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C06B8872AFAA9AC00E4734F /* random_quran_verseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = random_quran_verseApp.swift; sourceTree = "<group>"; };
-		8C06B8892AFAA9AC00E4734F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8C06B8892AFAA9AC00E4734F /* GenerateAyah.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateAyah.swift; sourceTree = "<group>"; };
 		8C06B88B2AFAA9AC00E4734F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8C06B88E2AFAA9AC00E4734F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8C06B8902AFAA9AC00E4734F /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		8C06B8932AFAA9AC00E4734F /* random_quran_verse.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = random_quran_verse.xcdatamodel; sourceTree = "<group>"; };
 		8C06B8952AFAA9AC00E4734F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +56,15 @@
 		8C06B8A42AFAA9AD00E4734F /* random quran verseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "random quran verseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C06B8A82AFAA9AD00E4734F /* random_quran_verseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = random_quran_verseUITests.swift; sourceTree = "<group>"; };
 		8C06B8AA2AFAA9AD00E4734F /* random_quran_verseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = random_quran_verseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8C41EFC32AFBF0F900D0CD06 /* FetchQuranVerse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchQuranVerse.swift; sourceTree = "<group>"; };
+		8C41EFC52AFBF9F900D0CD06 /* QuranButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuranButton.swift; sourceTree = "<group>"; };
+		8C41EFC72AFBFA6800D0CD06 /* DisplayText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayText.swift; sourceTree = "<group>"; };
+		8C41EFCB2AFBFE0900D0CD06 /* QuranVerseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuranVerseViewModel.swift; sourceTree = "<group>"; };
+		8C41EFCD2AFC030B00D0CD06 /* VerseDisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerseDisplayView.swift; sourceTree = "<group>"; };
+		8C41EFCF2AFC03F000D0CD06 /* VerseButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerseButtonView.swift; sourceTree = "<group>"; };
+		8C41EFD12AFCA76900D0CD06 /* apiTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apiTest.swift; sourceTree = "<group>"; };
+		8C50E0952B092174009B336E /* StartingPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartingPoint.swift; sourceTree = "<group>"; };
+		8C7675092B09CC4A004FA5A6 /* NextButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,29 +115,25 @@
 		8C06B8862AFAA9AC00E4734F /* random quran verse */ = {
 			isa = PBXGroup;
 			children = (
+				8C41EFCB2AFBFE0900D0CD06 /* QuranVerseViewModel.swift */,
+				8C50E0972B092D74009B336E /* Views */,
 				8C06B8872AFAA9AC00E4734F /* random_quran_verseApp.swift */,
-				8C06B8892AFAA9AC00E4734F /* ContentView.swift */,
+				8C41EFC52AFBF9F900D0CD06 /* QuranButton.swift */,
 				8C06B88B2AFAA9AC00E4734F /* Assets.xcassets */,
 				8C06B8902AFAA9AC00E4734F /* Persistence.swift */,
 				8C06B8952AFAA9AC00E4734F /* Info.plist */,
 				8C06B8922AFAA9AC00E4734F /* random_quran_verse.xcdatamodeld */,
-				8C06B88D2AFAA9AC00E4734F /* Preview Content */,
+				8C41EFC32AFBF0F900D0CD06 /* FetchQuranVerse.swift */,
+				8C41EFC72AFBFA6800D0CD06 /* DisplayText.swift */,
 			);
 			path = "random quran verse";
-			sourceTree = "<group>";
-		};
-		8C06B88D2AFAA9AC00E4734F /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				8C06B88E2AFAA9AC00E4734F /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		8C06B89D2AFAA9AD00E4734F /* random quran verseTests */ = {
 			isa = PBXGroup;
 			children = (
 				8C06B89E2AFAA9AD00E4734F /* random_quran_verseTests.swift */,
+				8C41EFD12AFCA76900D0CD06 /* apiTest.swift */,
 			);
 			path = "random quran verseTests";
 			sourceTree = "<group>";
@@ -133,6 +145,18 @@
 				8C06B8AA2AFAA9AD00E4734F /* random_quran_verseUITestsLaunchTests.swift */,
 			);
 			path = "random quran verseUITests";
+			sourceTree = "<group>";
+		};
+		8C50E0972B092D74009B336E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8C50E0952B092174009B336E /* StartingPoint.swift */,
+				8C06B8892AFAA9AC00E4734F /* GenerateAyah.swift */,
+				8C41EFCF2AFC03F000D0CD06 /* VerseButtonView.swift */,
+				8C41EFCD2AFC030B00D0CD06 /* VerseDisplayView.swift */,
+				8C7675092B09CC4A004FA5A6 /* NextButton.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,7 +263,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C06B88F2AFAA9AC00E4734F /* Preview Assets.xcassets in Resources */,
 				8C06B88C2AFAA9AC00E4734F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,9 +288,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C41EFC42AFBF0F900D0CD06 /* FetchQuranVerse.swift in Sources */,
+				8C41EFCE2AFC030B00D0CD06 /* VerseDisplayView.swift in Sources */,
+				8C41EFC62AFBF9F900D0CD06 /* QuranButton.swift in Sources */,
+				8C41EFC82AFBFA6800D0CD06 /* DisplayText.swift in Sources */,
 				8C06B8912AFAA9AC00E4734F /* Persistence.swift in Sources */,
-				8C06B88A2AFAA9AC00E4734F /* ContentView.swift in Sources */,
+				8C41EFCC2AFBFE0900D0CD06 /* QuranVerseViewModel.swift in Sources */,
+				8C76750A2B09CC4A004FA5A6 /* NextButton.swift in Sources */,
+				8C06B88A2AFAA9AC00E4734F /* GenerateAyah.swift in Sources */,
+				8C50E0962B092174009B336E /* StartingPoint.swift in Sources */,
 				8C06B8942AFAA9AC00E4734F /* random_quran_verse.xcdatamodeld in Sources */,
+				8C41EFD02AFC03F000D0CD06 /* VerseButtonView.swift in Sources */,
 				8C06B8882AFAA9AC00E4734F /* random_quran_verseApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,6 +307,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C41EFD22AFCA76900D0CD06 /* apiTest.swift in Sources */,
 				8C06B89F2AFAA9AD00E4734F /* random_quran_verseTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,17 +456,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"random quran verse/Preview Content\"";
 				DEVELOPMENT_TEAM = 55N9G92HC4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Random Quran Picker";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -453,17 +489,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"random quran verse/Preview Content\"";
 				DEVELOPMENT_TEAM = 55N9G92HC4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Random Quran Picker";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -486,7 +526,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 55N9G92HC4;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "yes.random-quran-verseTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -506,7 +546,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 55N9G92HC4;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "yes.random-quran-verseTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
