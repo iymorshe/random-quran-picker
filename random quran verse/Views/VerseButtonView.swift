@@ -5,7 +5,7 @@ struct VerseButtonView: View {
 
     var body: some View {
         Button("Generate") {
-            viewModel.updateVerse()
+            viewModel.newUpdateVerse()
         }
         .buttonStyle(DefaultButtonStyle()) // Replace with your custom button style if needed
     }

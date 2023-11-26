@@ -23,7 +23,15 @@
 		8C41EFD02AFC03F000D0CD06 /* VerseButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C41EFCF2AFC03F000D0CD06 /* VerseButtonView.swift */; };
 		8C41EFD22AFCA76900D0CD06 /* apiTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C41EFD12AFCA76900D0CD06 /* apiTest.swift */; };
 		8C50E0962B092174009B336E /* StartingPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C50E0952B092174009B336E /* StartingPoint.swift */; };
+		8C5886CF2B115325005A9740 /* error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5886CE2B115325005A9740 /* error.swift */; };
+		8C5886D12B11541A005A9740 /* surahRanger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5886D02B115419005A9740 /* surahRanger.swift */; };
+		8C5886D32B11554D005A9740 /* endSurahPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5886D22B11554D005A9740 /* endSurahPicker.swift */; };
 		8C76750A2B09CC4A004FA5A6 /* NextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7675092B09CC4A004FA5A6 /* NextButton.swift */; };
+		8C76754A2B0AB4C5004FA5A6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7675492B0AB4C5004FA5A6 /* ContentView.swift */; };
+		8C76754C2B0AB5FB004FA5A6 /* CreateAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C76754B2B0AB5FB004FA5A6 /* CreateAlertView.swift */; };
+		8CC10D0D2B0D7FFC000CEA8C /* surahPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC10D0C2B0D7FFC000CEA8C /* surahPicker.swift */; };
+		8CC10D0F2B0EF0D6000CEA8C /* listScroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC10D0E2B0EF0D6000CEA8C /* listScroller.swift */; };
+		8CC8CE342B12E37B00669FBD /* startSurahPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC8CE332B12E37B00669FBD /* startSurahPicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,7 +72,15 @@
 		8C41EFCF2AFC03F000D0CD06 /* VerseButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerseButtonView.swift; sourceTree = "<group>"; };
 		8C41EFD12AFCA76900D0CD06 /* apiTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apiTest.swift; sourceTree = "<group>"; };
 		8C50E0952B092174009B336E /* StartingPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartingPoint.swift; sourceTree = "<group>"; };
+		8C5886CE2B115325005A9740 /* error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = error.swift; sourceTree = "<group>"; };
+		8C5886D02B115419005A9740 /* surahRanger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = surahRanger.swift; sourceTree = "<group>"; };
+		8C5886D22B11554D005A9740 /* endSurahPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = endSurahPicker.swift; sourceTree = "<group>"; };
 		8C7675092B09CC4A004FA5A6 /* NextButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextButton.swift; sourceTree = "<group>"; };
+		8C7675492B0AB4C5004FA5A6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8C76754B2B0AB5FB004FA5A6 /* CreateAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAlertView.swift; sourceTree = "<group>"; };
+		8CC10D0C2B0D7FFC000CEA8C /* surahPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = surahPicker.swift; sourceTree = "<group>"; };
+		8CC10D0E2B0EF0D6000CEA8C /* listScroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = listScroller.swift; sourceTree = "<group>"; };
+		8CC8CE332B12E37B00669FBD /* startSurahPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = startSurahPicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +141,14 @@
 				8C06B8922AFAA9AC00E4734F /* random_quran_verse.xcdatamodeld */,
 				8C41EFC32AFBF0F900D0CD06 /* FetchQuranVerse.swift */,
 				8C41EFC72AFBFA6800D0CD06 /* DisplayText.swift */,
+				8C7675492B0AB4C5004FA5A6 /* ContentView.swift */,
+				8C5886CE2B115325005A9740 /* error.swift */,
+				8C76754B2B0AB5FB004FA5A6 /* CreateAlertView.swift */,
+				8CC10D0C2B0D7FFC000CEA8C /* surahPicker.swift */,
+				8C5886D22B11554D005A9740 /* endSurahPicker.swift */,
+				8CC8CE332B12E37B00669FBD /* startSurahPicker.swift */,
+				8CC10D0E2B0EF0D6000CEA8C /* listScroller.swift */,
+				8C5886D02B115419005A9740 /* surahRanger.swift */,
 			);
 			path = "random quran verse";
 			sourceTree = "<group>";
@@ -288,18 +312,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CC8CE342B12E37B00669FBD /* startSurahPicker.swift in Sources */,
+				8C5886D12B11541A005A9740 /* surahRanger.swift in Sources */,
 				8C41EFC42AFBF0F900D0CD06 /* FetchQuranVerse.swift in Sources */,
 				8C41EFCE2AFC030B00D0CD06 /* VerseDisplayView.swift in Sources */,
 				8C41EFC62AFBF9F900D0CD06 /* QuranButton.swift in Sources */,
 				8C41EFC82AFBFA6800D0CD06 /* DisplayText.swift in Sources */,
+				8CC10D0D2B0D7FFC000CEA8C /* surahPicker.swift in Sources */,
 				8C06B8912AFAA9AC00E4734F /* Persistence.swift in Sources */,
 				8C41EFCC2AFBFE0900D0CD06 /* QuranVerseViewModel.swift in Sources */,
 				8C76750A2B09CC4A004FA5A6 /* NextButton.swift in Sources */,
 				8C06B88A2AFAA9AC00E4734F /* GenerateAyah.swift in Sources */,
 				8C50E0962B092174009B336E /* StartingPoint.swift in Sources */,
 				8C06B8942AFAA9AC00E4734F /* random_quran_verse.xcdatamodeld in Sources */,
+				8C76754A2B0AB4C5004FA5A6 /* ContentView.swift in Sources */,
+				8C5886D32B11554D005A9740 /* endSurahPicker.swift in Sources */,
+				8C76754C2B0AB5FB004FA5A6 /* CreateAlertView.swift in Sources */,
 				8C41EFD02AFC03F000D0CD06 /* VerseButtonView.swift in Sources */,
 				8C06B8882AFAA9AC00E4734F /* random_quran_verseApp.swift in Sources */,
+				8C5886CF2B115325005A9740 /* error.swift in Sources */,
+				8CC10D0F2B0EF0D6000CEA8C /* listScroller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

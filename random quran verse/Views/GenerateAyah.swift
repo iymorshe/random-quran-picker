@@ -1,7 +1,15 @@
 import SwiftUI
 
 struct GenerateAyah: View {
-    @StateObject private var viewModel = QuranVerseViewModel()
+    @Binding var start: Int
+    @Binding var end: Int
+    @StateObject private var viewModel: QuranVerseViewModel
+
+    init(start: Binding<Int>, end: Binding<Int>) {
+        _viewModel = StateObject(wrappedValue: QuranVerseViewModel(startingSurah: start.wrappedValue , endingSurah: end.wrappedValue ))
+        _start = start
+        _end = end
+    }
     @State private var isGenerated = false
 
     var body: some View {
@@ -10,7 +18,7 @@ struct GenerateAyah: View {
                              translation: viewModel.translation,
                              reference: viewModel.ayahID)
             Button("Generate") {
-                viewModel.updateVerse()
+                viewModel.newUpdateVerse()
                 isGenerated = true
                 //
             }
@@ -36,6 +44,6 @@ struct GenerateAyah: View {
 
 struct GenerateAyah_Previews: PreviewProvider {
     static var previews: some View {
-        GenerateAyah()
+        GenerateAyah(start:.constant(50),end:.constant(50))
     }
 }

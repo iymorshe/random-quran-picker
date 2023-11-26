@@ -35,17 +35,22 @@ func fetchQuranVerse(start: Int, end: Int, completion: @escaping QuranVerseCompl
     ]
 
     // Ensure the start and end are within valid range
-    let validStart = max(1, start)
-    let validEnd = min(end, 114)
+//   let validStart = max(1, start)
+//   let validEnd = min(end, 114)
 
     // Select a random chapter within the specified range
-    let randomChapter = Int.random(in: validStart...validEnd)
-    let versesInChapter = versesPerChapter[randomChapter] 
+    let randomChapter = Int.random(in: start...end)
+    let versesInChapter = versesPerChapter[randomChapter]
     let randomVerse = Int.random(in: 1...versesInChapter)
-
-    let request = NSMutableURLRequest(url: NSURL(string: "https://al-quran1.p.rapidapi.com/\(randomChapter)/\(randomVerse)")! as URL,
-                                      cachePolicy: .useProtocolCachePolicy,
-                                      timeoutInterval: 10.0)
+    print("randomChapter: \(randomChapter)")
+    print("versesInChapter: \(versesInChapter)")
+    print("randomVerse: \(randomVerse)")
+     let request = NSMutableURLRequest(url: NSURL(string: "https://al-quran1.p.rapidapi.com/\(randomChapter)/\(randomVerse)")! as URL,
+                                       cachePolicy: .useProtocolCachePolicy,
+                                       timeoutInterval: 10.0)
+//    let request = NSMutableURLRequest(url: NSURL(string: "https://al-quran1.p.rapidapi.com//1")! as URL,
+//                                      cachePolicy: .useProtocolCachePolicy,
+//                                      timeoutInterval: 10.0)
     request.httpMethod = "GET"
     request.allHTTPHeaderFields = headers
 
@@ -95,7 +100,7 @@ func nextQuranVerse(surahNumber: Int, verseNumber: Int, completion: @escaping Qu
         return
     }
 
-    let request = NSMutableURLRequest(url: NSURL(string: "https://al-quran1.p.rapidapi.com/\(surahNumber)/\(verseNumber)")! as URL,
+    let request = NSMutableURLRequest(url: NSURL(string: "https://al-quran1.p.rapidapi.com/\(surahNumber+1)/\(verseNumber)")! as URL,
                                       cachePolicy: .useProtocolCachePolicy,
                                       timeoutInterval: 10.0)
     request.httpMethod = "GET"
