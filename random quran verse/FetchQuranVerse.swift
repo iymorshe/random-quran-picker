@@ -30,8 +30,7 @@ typealias QuranVerseCompletion = ([String]?) -> Void
 
 func fetchQuranVerse(start: Int, end: Int, completion: @escaping QuranVerseCompletion) {
     let headers = [
-        "X-RapidAPI-Key": "05826406d6msh37c7156f2232f2cp1e109fjsn3e5b2d5afdf1",
-        "X-RapidAPI-Host": "al-quran1.p.rapidapi.com"
+        
     ]
 
     // Ensure the start and end are within valid range
